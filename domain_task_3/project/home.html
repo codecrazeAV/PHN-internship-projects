@@ -1,1 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Online Shopping Website</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+           background-color: #0b0313;
+		}
+    .header{
+      margin-top: 2%;
+    }
 
+		.header h1 span{
+			background-color: #51138f;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+      margin-left: 35%;
+      border-radius: 20%;
+		}
+
+		nav {
+			background-color: #ddd;
+			padding: 10px;
+			text-align: center;
+		}
+
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		nav li {
+			display: inline-block;
+			margin-right: 20px;
+		}
+
+		nav a {
+			color: #333;
+			text-decoration: none;
+			padding: 5px;
+		}
+
+		nav a:hover {
+			background-color: #333;
+			color: #fff;
+		}
+
+		section {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			padding: 20px;
+            color: white;
+		}
+    .img{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin-top: 1%;
+      margin-right:90px;
+      margin-left: 1px;
+    }
+    .img1,.img2{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin-top: 4%;
+      margin-right:90px;
+      margin-left: 1px;
+    }
+
+        form {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1%;
+          }
+          
+          label {
+            margin-right: 1rem;
+          }
+          
+          input[type="search"] {
+            padding: 0.5rem;
+            border: none;
+            border-bottom: 2px solid #ccc;
+            font-size: 1rem;
+          }
+          
+          button[type="submit"] {
+            padding: 0.5rem 1rem;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 0.25rem;
+            font-size: 1rem;
+            cursor: pointer;
+          }
+          .dropdown {
+            position: relative;
+            display: inline-block;
+          }
+        
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            z-index: 1;
+          }
+        
+          .dropdown-content a {
+            display: block;
+            padding: 12px 16px;
+            text-decoration: none;
+            font-family: Georgia;
+            color: #2be867;
+          }
+        
+          .dropdown:hover .dropdown-content {
+            display: block;
+          }
+          footer nav{
+            background-color: #2be867;
+          }
+        
+          
+	</style>
+</head>
+<body>
+  <div class="header">
+    <h1>	<span>	Welcome to The New Age</span></h1>
+  </div>
+        <form action="/" method="get">
+            <label for="search"></label>
+            <input type="search" id="search" name="q" placeholder="Serach for any item">
+            <button type="submit">Search</button>
+          </form>
+          
+	<nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn">Electronics</a>
+            <div class="dropdown-content">
+              <a href="#" class="item">Mobiles</a>
+              <a href="#" class="item">Accessories</a>
+              <a href="#" class="item">Laptops</a>
+              <a href="#" class="item">Televisions</a>
+              <a href="#" class="item">Watches</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn">Clothing</a>
+            <div class="dropdown-content">
+              <a href="#" class="item">Trousers</a>
+              <a href="#" class="item">Jacket</a>
+              <a href="#" class="item">Sportswear</a>
+              <a href="#" class="item">Dress</a>
+              <a href="#" class="item">Under garments</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn">Footwear</a>
+            <div class="dropdown-content">
+              <a href="#" class="item">Sneakers</a>
+              <a href="#" class="item">Sandals</a>
+              <a href="#" class="item">Boot</a>
+              <a href="#" class="item">Shoes</a>
+              <a href="#" class="item">Loafers</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn">Furniture</a>
+            <div class="dropdown-content">
+              <a href="#" class="item">Sofa</a>
+              <a href="#" class="item">Chair</a>
+              <a href="#" class="item">Bed</a>
+              <a href="#" class="item">Table</a>
+              <a href="#" class="item">Wardrobe</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <h2>Mobiles</h2>
+      </section>
+      <div class="img">
+        <img src="apple.jpg" alt="Image description" style="width: 8%; height: 85%;">
+        <img src="samsung.jpg" alt="Image description" style="width: 8%; height: 85%;">
+        <img src="redmi.jpg" alt="Image description" style="width: 8%; height: 85%;">
+        <img src="oneplus.jpg" alt="Image description" style="width: 8%; height: 85%;">
+      </div>
+      <section>
+        <h2>Laptops</h2>
+      </section>
+      <div class="img1">
+        <img src="msigt77.jpg" alt="Image description" style="width: 8%; height: 85%;">
+        <img src="alienware.jpeg" alt="Image description" style="width: 8%; height: 85%;">
+        <img src="asusrogzyphrus.jpeg" alt="Image description" style="width: 8%; height: 85%;">
+        <img src="predatorhelios.jpeg" alt="Image description" style="width: 8%; height: 85%;">
+      </div>
+      <section>
+        <h2>Clothing</h2>
+      </section>
+      <div class="img2">
+        <img src="jeans.jpg" alt="Image description" style="width: 8%; height: 85%;">
+        <img src="swedshirt.jpeg" alt="Image description" style="width: 8%; height: 85%;">
+        <img src="jacket.jpg" alt="Image description" style="width: 8%; height: 85%;">
+        <img src="tarck.jpg" alt="Image description" style="width: 8%; height: 85%;">
+      </div>
+      <footer>
+        <nav>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Customer Policy</a></li>
+            <li><a href="#">Address</a></li>
+          </ul>
+        </nav>
+      </footer>
+      
+                <script>
+                    document.querySelectorAll('.electronics-item').forEach(item => {
+                      item.addEventListener('click', (event) => {
+                        event.preventDefault();
+                        const itemName = event.target.textContent;
+                        window.location.href = `#${itemName.toLowerCase()}`;
+                      });
+                    });
+                  </script>
+                
+                </body>
+                </html>
