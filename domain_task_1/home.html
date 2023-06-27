@@ -1,1 +1,76 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page for UEM</title>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        h1{
+            text-align: center;
+        }
+        .headline{
+            background-color: rgb(2, 18, 18); 
+            border-radius: 40px;
+            width: 80%;
+            margin: auto;
+        }
+        .headline ul{
+            overflow: auto;
+        }
+        .headline li{
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+            padding: 3px 3px;
+            text-decoration: none;
+            color: rgb(247, 253, 253);
+        }
+        .headline li a{
+            text-decoration: none;
+        }
+        .headline li:hover{
+            background-color: white;
+            color: red;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        main {
+            flex: 1;
+        }
+        footer {
+            background-color: #020a12;
+            color: #f8f9fa;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%;
+            align-self: center;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Welcome to UEM Kolkata</h1>
+        <nav class="headline">
+            <ul>
+                <li>About Us</li>
+                <li><a href="department.html">Department</a></li>
+                <li>Faculty</li>
+                <li>Research</li>
+                <li>Placement</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+    </main>
+    <footer>
+        <p>&copy; UEM Kolkata 2023</p>
+    </footer>
+</body>
+</html>
