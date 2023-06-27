@@ -1,0 +1,10 @@
+To use the form, the customer needs to fill in the required fields (marked with the required attribute) and click the "Submit" button. The form will then send the reservation request to the restaurant's management team.
+
+Some special features or considerations that the restaurant's management team should be aware of are:
+
+The "Date" field allows customers to select the reservation date in a user-friendly calendar format.
+The "Time" field allows customers to select the reservation time in a user-friendly time picker format.
+The "Number of Guests" field has a minimum value of 1 and a maximum value of 20 to prevent customers from booking too few or too many seats.
+The "Email" field has a built-in validation to ensure that customers enter a valid email address.
+The "Phone" field has a pattern attribute has a normal phone number format which we use in our day to day life. for ex- 1234567890 comprising of 10 digits.
+The "Message" field is optional where customer can share any details regarding the seat booking to the manager. Otherwise they will be allowted default seats. 
