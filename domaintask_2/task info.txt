@@ -1,0 +1,28 @@
+Internal Styling Task 2 
+Task Description:
+You are required to prepare a home page for an Engineering college using HTML and CSS. In this task, 
+you need to use CSS inside HTML and do not create an external CSS file. You should include the 
+following headlines: "About us," "Department," "Faculty," "Research," and "Placement", “Contact us”
+Within the Department section, include all the streams/branches offered by the college. You should use 
+internal styling to apply the necessary styles to your HTML elements. After completing the task, you 
+need to copy the code and convert it into a PDF file and take screenshots of the output.
+Technical Requirements:
+• To complete this task, you should have a basic understanding of HTML and CSS. You should be 
+able to use HTML tags to structure the content of the page, and CSS to add style and layout to 
+the elements. 
+• Use Internal Styling.
+• You should also know how to take screenshots and convert code to a PDF file.
+Task Steps:
+1. Open a new file in a code editor and save it with an appropriate name, such as 
+"college_homepage.html."
+2. Create the basic structure of an HTML document by adding your code.
+3. Add the necessary HTML elements to create the structure of the page.
+4. Add the necessary CSS styles inside the style tag in the head section to style the HTML elements.
+Task Submission Steps:
+1. Once you finish the task, please copy the code and convert it into a PDF file. Additionally, 
+please take screenshots of the outputs.
+2. Next, create a folder where you can upload the PDF file of your code and screenshots of the 
+outputs. Once you have uploaded these files, convert the folder into a zip file and submit it 
+using the given Google Form link for task submission.
+Task Submission Deadline: 
+ The deadline of task submission will be Tuesday 2-5-2023 till 5:00 pm.
