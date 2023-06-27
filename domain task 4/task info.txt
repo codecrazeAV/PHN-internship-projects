@@ -1,1 +1,29 @@
-
+Web Development Task 4
+Task Description:
+Develop a landing page for a community website using HTML and CSS. The landing page should 
+include a navigation menu, a banner image or video, and sections for featured content, recent 
+updates, and upcoming events. The page should be designed to be visually appealing, easy to 
+navigate, and responsive to different screen sizes. The use of CSS styling and layout techniques 
+should be used to create a consistent visual style throughout the page. Additionally, the landing page 
+should be optimized for search engines and have a clear call to action to encourage visitors to explore 
+the rest of the website.. After completing the task, you need to copy the code and convert it into a 
+PDF file and take screenshots of the output.
+Technical Requirements:
+•To complete this task, you should have a basic understanding of HTML and CSS.
+You should be able to use HTML tags to structure the content of the page, and CSS to add style and 
+layout to the elements.
+•You can use Internal Styling/External Styling.
+•You should also know how to take screenshots and convert code to a PDF file.
+Task Steps:
+1.Open a new file in a code editor and save it with an appropriate name, such as "communities.html"
+2.Create the basic structure of an HTML document by adding your code.
+3.Add the necessary HTML elements to create the structure of the page.
+4.Add the necessary CSS styles inside the style tag in the head section to style the HTML elements.
+Task Submission Steps:
+1.Once you finish the task, please copy the code and convert it into a PDF file. Additionally, please 
+take screenshots of the outputs.
+2.Next, create a folder where you can upload the PDF file of your code and screenshots of the
+outputs. Once you have uploaded these files, convert the folder into a zip file and submit it using the 
+given Google Form link for task submission.
+Task Submission Deadline:
+The deadline of task submission will be Tuesday 16-5-2023 till 5:00 pm.
